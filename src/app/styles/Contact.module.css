@@ -1,0 +1,271 @@
+/* MEDIA QUERIES */
+
+/* sm */
+@media (max-width: 425px) {
+        .contact__container {
+		margin: 0 5rem;
+		padding-bottom: 7rem;
+	}
+	.contact__heading {
+		font-size: 2rem;
+	}
+	.contact_wrapper {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.Contact_info_card_container {
+		margin-top: 4.5rem;
+		/* margin-right: 1.5rem; */
+
+	}
+	/* Contact FORM */
+	.contact_info_formbg {
+		width: 17rem;
+		height: 43rem;
+	}
+        .info__heading {
+		font-size: 1.5rem;
+	}
+        .Contact_info_form_input__container{
+                flex-wrap: nowrap;
+                flex-direction: column;
+                margin: 0;
+        }
+	.contact_form_container {
+		margin: 0 1.125rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+                text-align: center;
+	}
+	.form__title {
+		margin-bottom: 2rem;
+	}
+	.form__input_title {
+		font-size: 0.95rem;
+	}
+	.form__input {
+		width: 14rem;
+	}
+	.form__button {
+		margin-top: 3rem;
+		font-size: 0.85rem;
+		padding: 0.4rem 1.5rem;
+	}
+}
+
+/* md */
+@media (min-width: 426px) and (max-width: 769px) {
+	.contact__container {
+		margin: 0 5rem;
+		padding-bottom: 7rem;
+	}
+	.contact__heading {
+		font-size: 2.75rem;
+	}
+	.contact_wrapper {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.Contact_info_card_container {
+		margin-top: 4.5rem;
+		margin-right: 1.5rem;
+	}
+	/* Contact FORM */
+	.contact_info_formbg {
+		width: 35rem;
+		height: 28rem;
+	}
+        .Contact_info_form_input__container{
+                margin: 0 5.35rem;
+        }
+	.contact_form_container {
+		margin: 0 1.125rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+                text-align: center;
+	}
+	.form__title {
+		margin-bottom: 2rem;
+	}
+	.form__input_title {
+		font-size: 0.95rem;
+	}
+	.form__input {
+		width: 8rem;
+	}
+	.form__button {
+		margin-top: 3rem;
+		font-size: 0.85rem;
+		padding: 0.4rem 1.5rem;
+	}
+}
+
+/* lg */
+@media (min-width: 770px) and (max-width: 1024px) {
+	.contact__container {
+		margin: 0 3rem;
+		padding-bottom: 7rem;
+	}
+	.contact__heading {
+		font-size: 3.25rem;
+	}
+	/* Contact Info */
+	.info__heading {
+		font-size: 1.5rem;
+	}
+	.info__subheading {
+		font-size: 1.15rem;
+	}
+	.info__description {
+		font-size: 0.65rem;
+		max-width: 55ch;
+	}
+	.Contact_info_card_container {
+		margin-top: 3rem;
+		margin-right: 1.5rem;
+	}
+	.contact__info_boxbg {
+		width: 17rem;
+		height: 24rem;
+	}
+	.info__contact {
+		margin-top: 2.75rem;
+	}
+	.info__icons {
+		width: 20px;
+		height: 20px;
+	}
+	.info__icon_desc {
+		font-size: 0.7rem;
+	}
+	.info__logos {
+		margin-top: 2.75rem;
+	}
+	.form__limecircle {
+		margin-top: 18.15rem;
+		margin-left: 11.85rem;
+		width: 4.5rem;
+		height: 4.5rem;
+	}
+	.form__pinkcircle {
+		margin-left: 11rem;
+		margin-top: 19rem;
+		width: 20rem;
+		height: 20rem;
+	}
+	/* Contact FORM */
+	.contact_info_formbg {
+		width: 25.5rem;
+		height: 28rem;
+	}
+	.contact_form_container {
+		margin: 0 1.125rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+	}
+	.form__title {
+		margin-bottom: 2rem;
+	}
+	.form__input_title {
+		font-size: 0.95rem;
+	}
+	.form__input {
+		width: 8rem;
+	}
+	.form__button {
+		margin-top: 6;
+		font-size: 0.85rem;
+		padding: 0.4rem 1.5rem;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1123px) {
+	.contact__container {
+		margin: 0 6rem;
+		padding-bottom: 6rem;
+	}
+	.contact__heading {
+		font-size: 3.5rem;
+	}
+	.Contact_info_card_container {
+		margin-top: 3rem;
+		margin-right: 3rem;
+	}
+	.contact_info_formbg {
+		width: 32rem;
+		height: 32rem;
+	}
+	.contact_form_container {
+		margin: 0 2rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+	}
+	.form__title {
+		margin-bottom: 2.5rem;
+	}
+	.form__input {
+		width: 10rem;
+	}
+	.form__button {
+		margin-top: 6;
+		font-size: 1rem;
+		padding: 0.5rem 1rem;
+	}
+}
+
+/* xl */
+@media (min-width: 1123px) and (max-width: 1280px) {
+	.contact__container {
+		margin: 0 9rem;
+		padding-bottom: 5rem;
+	}
+	/* INFO_CARD */
+	.Contact_info_card_container {
+		margin-top: 3rem;
+		margin-right: 3rem;
+	}
+	/* FORM */
+	.contact_info_formbg {
+		width: 35rem;
+		height: 35rem;
+	}
+	.contact_form_container {
+		margin: 0 3rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+	}
+	.form__input {
+		width: 11rem;
+	}
+}
+
+/* xxL */
+@media (min-width: 1280px) {
+	.contact_info_formbg {
+		width: 40rem;
+		height: 36rem;
+	}
+	.Contact_info_card_container {
+		margin-top: 4rem;
+		margin-left: 3rem;
+		margin-right: 8rem;
+	}
+	.contact__container {
+		margin: 0 11rem;
+		padding-bottom: 10rem;
+	}
+	.form__description {
+		padding: 1rem 0;
+	}
+	.contact_form_container {
+		margin: 0 2rem;
+		margin-top: 1.5rem;
+	}
+}

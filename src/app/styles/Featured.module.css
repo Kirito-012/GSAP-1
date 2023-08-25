@@ -1,0 +1,244 @@
+/* SLIDER ANIMATION */
+.slider {
+	height: 250px;
+	position: relative;
+	width: 90%;
+	display: grid;
+	overflow: hidden;
+}
+.featured__iconholder {
+	display: flex;
+	width: calc(200px * 14);
+	animation: scroll;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+.featured__iconholder:hover {
+	animation-play-state: paused;
+}
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-230px * 7));
+	}
+}
+.icon_slider {
+	perspective: 100;
+}
+.logo {
+	width: 100%;
+	transition: transform 0.3s;
+}
+.logo:hover {
+	transform: translateZ(20px);
+}
+
+/* MEDIA QUERIES */
+
+/* sm */
+@media (max-width: 425px) {
+	.slider {
+		width: 100%;
+	}
+	.featured__title {
+		padding-top: 4rem;
+		font-size: 0.75rem;
+	}
+	.featured__container {
+		margin: 0 3.75rem;
+		height: 20rem;
+	}
+	.featured__iconholder {
+		height: 6rem;
+
+		animation-duration: 20s;
+		width: calc(150px * 14);
+	}
+	.featured__swiggylogo {
+		width: 180px;
+	}
+	.featured__realmelogo {
+		width: 160px;
+	}
+	.featured__mxplayerlogo {
+		width: 150px;
+	}
+	.featured__whitehilllogo {
+		width: 100px;
+	}
+	.featured__patanjalilogo {
+		width: 120px;
+	}
+	.featured__zee5logo {
+		height: 50px;
+		width: 100px;
+	}
+	.featured__mpllogo {
+		width: 110px;
+	}
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-250px * 7));
+		}
+	}
+}
+
+@media (min-width: 426px) and (max-width: 596px) {
+	.featured__whitehilllogo {
+		display: none;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.slider {
+		width: 100%;
+	}
+	.featured__swiggylogo {
+		width: 106px;
+	}
+	.featured__realmelogo {
+		width: 94px;
+	}
+	.featured__mxplayerlogo {
+		width: 95px;
+	}
+	.featured__whitehilllogo {
+		width: 70px;
+	}
+	.featured__patanjalilogo {
+		width: 120px;
+	}
+	.featured__zee5logo {
+		height: 50px;
+		width: 100px;
+	}
+	.featured__mpllogo {
+		width: 75px;
+	}
+	.featured__container {
+		margin: 0 5rem;
+		padding-top: 4rem;
+		height: 10rem;
+	}
+	.featured__title {
+		font-size: 0.75rem;
+	}
+	.featured__iconholder {
+		width: calc(130px * 14);
+		animation-duration: 17s;
+		height: 4rem;
+	}
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-160px * 7));
+		}
+	}
+}
+
+/* lg */
+@media (min-width: 768px) and (max-width: 1025px) {
+	.slider {
+		width: 100%;
+	}
+	.featured__swiggylogo {
+		width: 136px;
+	}
+	.featured__realmelogo {
+		width: 144px;
+	}
+	.featured__mxplayerlogo {
+		width: 140px;
+	}
+	.featured__whitehilllogo {
+		width: 80px;
+	}
+	.featured__container {
+		margin: 0 5rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__title {
+		font-size: 0.75rem;
+	}
+	.featured__iconholder {
+		height: 4.5rem;
+		width: calc(160px * 14);
+	}
+	@keyframes scroll {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(calc(-170px * 7));
+		}
+	}
+}
+
+/* xl */
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.slider {
+		width: 100%;
+	}
+	.featured__swiggylogo {
+		width: 166px;
+	}
+	.featured__realmelogo {
+		width: 174px;
+	}
+	.featured__mxplayerlogo {
+		width: 200px;
+	}
+	.featured__whitehilllogo {
+		width: 80px;
+	}
+	.featured__patanjalilogo {
+		width: 135px;
+	}
+	.featured__zee5logo {
+		width: 120px;
+	}
+	.featured__mpllogo {
+		width: 100px;
+	}
+	.featured__container {
+		margin: 0 9rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__title {
+		font-size: 1rem;
+	}
+	.featured__iconholder {
+		width: calc(170px * 14);
+		height: 6rem;
+	}
+}
+
+/* xxL */
+@media (min-width: 1280px) {
+	.slider {
+		width: 100%;
+	}
+	.featured__container {
+		margin: 0 11rem;
+		padding-top: 4rem;
+		height: 10rem;
+		padding-bottom: 9rem;
+	}
+	.featured__mpllogo {
+		width: 160px;
+	}
+	.featured__iconholder {
+		height: 6rem;
+	}
+}

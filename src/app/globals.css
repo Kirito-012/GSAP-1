@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ropa Sans:wght@400&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* DEFINED BY KIRITO - FOR LINEANCYYYY */
+.container2 {
+	padding: 0 11rem;
+}
+
+.bor {
+	border: 3px solid red;
+	border-radius: 2rem;
+}
+
+/* FONTS */
+.ropasans {
+	font-family: "Ropa Sans";
+}
+.outfit {
+	font-family: "Outfit", sans-serif;
+}
+.grandstander {
+	font-family: "Grandstander", cursive;
+}
+.roboto {
+	font-family: "Roboto", sans-serif;
+}
+.robotoslab {
+	font-family: "Roboto Slab", serif;
+}
+.roundedfont {
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.radiocanada {
+	font-family: "Radio Canada", sans-serif;
+}
+
+/* UTILITIES */
+strong {
+	color: #21e6c1;
+	font-family: "Grandstander";
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+.description {
+	margin-top: 8px;
+	color: #fff;
+	font-family: "Roboto Slab", serif;
+	letter-spacing: 0.1px;
+	line-height: auto;
+	font-size: 1.1875rem;
+	font-weight: 300;
+	max-width: 50ch;
+}
+.limegreen {
+	color: #21e6c1;
+}
+.gradient_button {
+	border-radius: 1rem;
+	padding: 0.8rem 1.5rem;
+	background: linear-gradient(
+		90deg,
+		rgba(25, 210, 175, 0.74) 0%,
+		rgba(39, 98, 216, 0.75) 100%
+	);
+	box-shadow: 0 10px 20px rgba(33, 230, 193, 0.2),
+		0 6px 6px rgba(39, 98, 216, 0.5), 0 0 10px -10px #21e6c1;
+	transition: transform 0.4s;
+}
+.gradient_button:hover {
+	box-shadow: 0 14px 28px rgba(33, 230, 193, 0.2),
+		0 10px 10px rgba(39, 98, 216, 0.5), 0 0 30px -10px #21e6c1;
+	transform: translateY(-5px);
+}
+
+.contact__info__logo {
+	cursor: pointer;
+	margin: 0.25rem;
+	padding: 0.3rem;
+	border-radius: 50%;
+	transition: background-color 0.4s;
+}
+.contact__info__logo:hover {
+	background-color: #fa949d;
+}
+
+/* BACKGROUND */
+.contact_info_formbg {
+	height: 40rem;
+	width: 40rem;
+	background: linear-gradient(
+		178.72deg,
+		rgba(38, 37, 37, 0.5) 10%,
+		rgba(30, 30, 30, 0.4) 60%
+	);
+	border-radius: 1rem;
+}
+.creative__bg {
+	position: relative;
+	background: linear-gradient(
+		160.09deg,
+		#0a1232,
+		rgba(80, 119, 187, 0.88) 56.58%,
+		#0e1940
+	);
+	box-shadow: 0px 8px 20px #000;
+	width: 100%;
+	/* height: 162.5rem; */
+}
+.testimonials_bg {
+	background: linear-gradient(178.72deg, #21e6c1, #bfe1e1);
+	width: 100%;
+}
+.form__limecircle {
+	border-radius: 50%;
+	background: linear-gradient(
+		141.84deg,
+		rgba(25, 210, 175, 0.74),
+		rgba(25, 210, 175, 0.28)
+	);
+	width: 7rem;
+	height: 7rem;
+}
+.form__pinkcircle {
+	border-radius: 50%;
+	background-color: #fa949d;
+	width: 20rem;
+	height: 20rem;
+}
+
+* {
+	scroll-behavior: smooth;
+}
+body {
+	width: 100vw;
+	user-select: none;
+	overflow-x: hidden;
+}
+
+/* CUSTOM SCROLLBAR */
+body::-webkit-scrollbar {
+	width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0px rgba(240, 238, 238, 1);
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 2px;
+	background-color: #21e6c1;
+	outline: 1px solid #21e6c1;
+}
+
+/* MEDIA QUERIES */
+
+/* sm */
+/* @media (max-width: 640px) {
+} */
+
+/* md */
+@media (max-width: 768px) {
+}
+
+/* lg */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* xl */
+@media (min-width: 1024px) and (max-width: 1280px) {
+}
+
+/* xxL */
+@media (min-width: 1280px) {
+}
+
+.img-container:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: black;
+}
