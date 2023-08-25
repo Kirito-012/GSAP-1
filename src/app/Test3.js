@@ -49,7 +49,7 @@ const Test3 = () => {
 						</p>
 						<h1
 							ref={(lol) => (heading3 = lol)}
-							className="w-[30vw] absolute bottom-[48%] h-[7vh] bg-white"></h1>
+							className="w-[30vw] absolute bottom-[48%] h-[10vh] bg-white"></h1>
 					</div>
 				</div>
 				<div className="flex gap-9">
